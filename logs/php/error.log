@@ -1,0 +1,165 @@
+[22-Jul-2024 13:30:54 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[22-Jul-2024 13:30:54 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[22-Jul-2024 13:30:54 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[22-Jul-2024 13:30:54 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[22-Jul-2024 13:30:54 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[22-Jul-2024 17:22:17 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template.php on line 791
+[22-Jul-2024 17:22:29 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template.php on line 791
+[22-Jul-2024 17:22:32 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template.php on line 791
+[22-Jul-2024 18:37:31 UTC] PHP Warning:  require_once(C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child/oeuvres.php): Failed to open stream: No such file or directory in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child\index.php on line 5
+[22-Jul-2024 18:37:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child/oeuvres.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child\index.php:5
+Stack trace:
+#0 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\rebai\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rebai\\...')
+#2 C:\Users\rebai\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\rebai\\...')
+#3 {main}
+  thrown in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child\index.php on line 5
+[22-Jul-2024 18:37:32 UTC] PHP Warning:  require_once(C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child/oeuvres.php): Failed to open stream: No such file or directory in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child\index.php on line 5
+[22-Jul-2024 18:37:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child/oeuvres.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child\index.php:5
+Stack trace:
+#0 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\rebai\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rebai\\...')
+#2 C:\Users\rebai\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\rebai\\...')
+#3 {main}
+  thrown in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child\index.php on line 5
+[23-Jul-2024 13:01:45 UTC] PHP Warning:  Undefined array key "add_ons" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[23-Jul-2024 13:01:45 UTC] PHP Warning:  Undefined array key "add_ons" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[23-Jul-2024 13:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[23-Jul-2024 13:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[23-Jul-2024 13:01:45 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21 and defined in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php:30
+Stack trace:
+#0 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status(NULL)
+#1 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\classes\transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform(Array)
+#2 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\api.php(18): Elementor\Modules\Home\API::transform_home_screen_data(Array)
+#4 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts('')
+#7 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\rebai\Local Sites\planty\app\public\wp-admin\admin-header.php(139): do_action('admin_print_scr...')
+#10 C:\Users\rebai\Local Sites\planty\app\public\wp-admin\admin.php(239): require_once('C:\\Users\\rebai\\...')
+#11 {main}
+  thrown in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 30
+[23-Jul-2024 13:01:45 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21 and defined in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php:30
+Stack trace:
+#0 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status(NULL)
+#1 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\classes\transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform(Array)
+#2 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\api.php(18): Elementor\Modules\Home\API::transform_home_screen_data(Array)
+#4 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts('')
+#7 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\rebai\Local Sites\planty\app\public\wp-admin\admin-header.php(139): do_action('admin_print_scr...')
+#10 C:\Users\rebai\Local Sites\planty\app\public\wp-admin\admin.php(239): require_once('C:\\Users\\rebai\\...')
+#11 {main}
+  thrown in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 30
+[23-Jul-2024 13:12:38 UTC] PHP Warning:  Undefined array key "add_ons" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[23-Jul-2024 13:12:38 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[23-Jul-2024 13:12:38 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21 and defined in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php:30
+Stack trace:
+#0 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status(NULL)
+#1 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\classes\transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform(Array)
+#2 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\api.php(18): Elementor\Modules\Home\API::transform_home_screen_data(Array)
+#4 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts('')
+#7 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\rebai\Local Sites\planty\app\public\wp-admin\admin-header.php(139): do_action('admin_print_scr...')
+#10 C:\Users\rebai\Local Sites\planty\app\public\wp-admin\admin.php(239): require_once('C:\\Users\\rebai\\...')
+#11 {main}
+  thrown in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 30
+[23-Jul-2024 13:20:51 UTC] PHP Warning:  Undefined array key "add_ons" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[23-Jul-2024 13:20:51 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21
+[23-Jul-2024 13:20:51 UTC] PHP Fatal error:  Uncaught TypeError: Elementor\Modules\Home\Transformations\Filter_Plugins::get_add_ons_installation_status(): Argument #1 ($add_ons) must be of type array, null given, called in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 21 and defined in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php:30
+Stack trace:
+#0 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php(21): Elementor\Modules\Home\Transformations\Filter_Plugins->get_add_ons_installation_status(NULL)
+#1 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\classes\transformations-manager.php(48): Elementor\Modules\Home\Transformations\Filter_Plugins->transform(Array)
+#2 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\api.php(24): Elementor\Modules\Home\Classes\Transformations_Manager->run_transformations()
+#3 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\api.php(18): Elementor\Modules\Home\API::transform_home_screen_data(Array)
+#4 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\module.php(99): Elementor\Modules\Home\API::get_home_screen_items()
+#5 C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\module.php(65): Elementor\Modules\Home\Module->get_app_js_config()
+#6 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Home\Module->enqueue_home_screen_scripts('')
+#7 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\rebai\Local Sites\planty\app\public\wp-admin\admin-header.php(139): do_action('admin_print_scr...')
+#10 C:\Users\rebai\Local Sites\planty\app\public\wp-admin\admin.php(239): require_once('C:\\Users\\rebai\\...')
+#11 {main}
+  thrown in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\home\transformations\filter-plugins.php on line 30
+[23-Jul-2024 15:56:12 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate-child\header.php on line 18
+[25-Jul-2024 11:25:05 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[25-Jul-2024 11:25:05 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[25-Jul-2024 11:25:05 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[25-Jul-2024 11:25:05 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[25-Jul-2024 11:25:05 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[07-Aug-2024 17:39:05 UTC] PHP Warning:  Undefined array key "pa_tooltip_class" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\premium-addons-for-elementor\modules\premium-global-tooltips\module.php on line 1227
+[07-Aug-2024 17:39:08 UTC] PHP Warning:  Undefined array key "pa_tooltip_class" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\premium-addons-for-elementor\modules\premium-global-tooltips\module.php on line 1227
+[07-Aug-2024 17:39:16 UTC] PHP Warning:  Undefined array key "pa_tooltip_class" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\premium-addons-for-elementor\modules\premium-global-tooltips\module.php on line 1227
+[07-Aug-2024 17:39:17 UTC] PHP Warning:  Undefined array key "pa_tooltip_class" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\premium-addons-for-elementor\modules\premium-global-tooltips\module.php on line 1227
+[07-Aug-2024 17:40:26 UTC] PHP Warning:  Undefined array key "pa_tooltip_class" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\premium-addons-for-elementor\modules\premium-global-tooltips\module.php on line 1227
+[07-Aug-2024 17:40:41 UTC] PHP Warning:  Undefined array key "pa_tooltip_class" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\premium-addons-for-elementor\modules\premium-global-tooltips\module.php on line 1227
+[07-Aug-2024 17:40:41 UTC] PHP Warning:  Undefined array key "pa_tooltip_class" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\premium-addons-for-elementor\modules\premium-global-tooltips\module.php on line 1227
+[07-Aug-2024 17:40:41 UTC] PHP Warning:  Undefined array key "pa_tooltip_class" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\premium-addons-for-elementor\modules\premium-global-tooltips\module.php on line 1227
+[07-Aug-2024 17:41:49 UTC] PHP Warning:  Undefined array key "pa_tooltip_class" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\plugins\premium-addons-for-elementor\modules\premium-global-tooltips\module.php on line 1227
+[07-Aug-2024 21:41:22 UTC] PHP Warning:  Undefined variable $url_page_admin in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 30
+[07-Aug-2024 21:41:22 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php:30
+Stack trace:
+#0 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajouter_lien_admin_au_menu('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\header.php(21): wp_nav_menu(Object(stdClass))
+#4 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\rebai\\...')
+#5 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\rebai\\...', true, Array)
+#6 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate\page.php(1): get_header()
+#8 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rebai\\...')
+#9 C:\Users\rebai\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rebai\\...')
+#10 C:\Users\rebai\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\rebai\\...')
+#11 {main}
+  thrown in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 30
+[07-Aug-2024 21:41:26 UTC] PHP Warning:  Undefined variable $url_page_admin in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 30
+[07-Aug-2024 21:41:26 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php:30
+Stack trace:
+#0 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajouter_lien_admin_au_menu('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\header.php(21): wp_nav_menu(Object(stdClass))
+#4 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\rebai\\...')
+#5 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\rebai\\...', true, Array)
+#6 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate\page.php(1): get_header()
+#8 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rebai\\...')
+#9 C:\Users\rebai\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rebai\\...')
+#10 C:\Users\rebai\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\rebai\\...')
+#11 {main}
+  thrown in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 30
+[07-Aug-2024 21:43:01 UTC] PHP Warning:  Undefined variable $url_page_admin in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 30
+[07-Aug-2024 21:43:01 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php:30
+Stack trace:
+#0 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajouter_lien_admin_au_menu('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\header.php(21): wp_nav_menu(Object(stdClass))
+#4 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\rebai\\...')
+#5 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\rebai\\...', true, Array)
+#6 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\blankslate\page.php(1): get_header()
+#8 C:\Users\rebai\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rebai\\...')
+#9 C:\Users\rebai\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rebai\\...')
+#10 C:\Users\rebai\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\rebai\\...')
+#11 {main}
+  thrown in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 30
+[07-Aug-2024 21:49:55 UTC] PHP Parse error:  syntax error, unexpected variable "$lien_admin" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 31
+[07-Aug-2024 21:49:55 UTC] PHP Parse error:  syntax error, unexpected variable "$lien_admin" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 31
+[07-Aug-2024 21:50:43 UTC] PHP Parse error:  syntax error, unexpected variable "$lien_admin" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 31
+[07-Aug-2024 21:50:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[07-Aug-2024 21:50:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\rebai\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[07-Aug-2024 21:51:03 UTC] PHP Parse error:  syntax error, unexpected variable "$lien_admin" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 33
+[07-Aug-2024 21:51:03 UTC] PHP Parse error:  syntax error, unexpected variable "$lien_admin" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 33
+[07-Aug-2024 21:52:48 UTC] PHP Parse error:  syntax error, unexpected variable "$lien_admin" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 33
+[07-Aug-2024 21:52:59 UTC] PHP Parse error:  syntax error, unexpected variable "$lien_admin" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 33
+[07-Aug-2024 21:53:15 UTC] PHP Parse error:  syntax error, unexpected variable "$lien_admin" in C:\Users\rebai\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 33

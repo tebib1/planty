@@ -1,0 +1,435 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://opencollective.com/blankslate
+Template: blankslate
+Author: Bryan Hadaway
+Author URI: https://opencollective.com/blankslate#section-contributors
+Description: Donate: https://opencollective.com/blankslate. Learn: https://blankslate.me/. BlankSlate is the definitive WordPress boilerplate starter theme. I've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability, with no intrusive visual CSS styles added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/bhadaway/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2024.2.1721906705
+Updated: 2024-07-25 11:25:05
+
+*/
+body {
+  max-width: 1440px;
+margin: 0 auto;
+}
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+/* padding-right:30px; */
+padding-left:30px;
+}
+
+#menu ul , #menu a {
+display: flex;
+  text-decoration:none;
+  gap:30px;
+align-items:center;
+color:black;
+font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: left;
+
+    }
+.btn_commander{
+background: rgba(220, 159, 150, 1);
+padding:20px;
+} 
+.btn_commander:hover {
+  background-color: #C02E44  ;
+}
+.bloc_canette{
+background-color: rgba(236, 226, 218, 1);
+max-height: 700px;
+position:relative;
+}
+#canette{
+width: 1307px;
+height: 950px;
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+max-width: none; 
+margin-left:-860px;
+z-index:2;  
+}
+
+.f_gauche{
+width: 280px;
+height: 400.08px;
+right:0px;
+top:240px;
+position: fixed;
+} 
+.f_droite{
+width: 280px;
+height: 400.08px;
+position: fixed;
+left:750px;
+bottom:730px;
+z-index:1;
+}
+.bloc_canette h2{
+display:flex;
+font-family: Syne;
+font-size: 50px;
+height:2px;
+width:1100px;
+padding-left:350px;
+}
+.bloc_description h2 {
+font-family: Syne;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+color: rgba(59, 142, 70, 1);
+margin-bottom:20px;
+margin-top:30px;
+}
+.bloc_description p {
+font-family: Syne;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+
+}
+.bloc_description {
+margin-bottom:50px;
+}
+.bloc_saveur {
+background-color:rgba(236, 226, 218, 1);
+}
+.bloc_saveur h2  {
+font-family: Syne;
+font-size: 30px;
+font-weight: 800;
+line-height: 36px;
+text-align: center;
+}
+.bloc_saveur p {
+font-family: Syne;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color:black;
+}
+.bloc_img_saveur img {
+width: 800px;
+height: 262px;
+ }
+#bloc_groupe{
+display:flex;
+flex-direction:row;
+}
+#alignement {
+display:flex;
+flex-direction:row;
+}
+
+#alignement img {
+width: 126.28px;
+height: 139px;
+}
+footer a {
+color:black;
+text-decoration:none;
+display:flex;
+justify-content:center;
+padding-bottom:20px;
+font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+}
+
+
+#bloc_nousrencotrer {
+display:flex;
+flex-direction:row;
+background-color: rgba(236, 226, 218, 1);
+height:400px;
+ z-index:1;
+}
+#bloc_nousrencotrer img {
+width: 145.3px;
+height: 150.26px;
+display:flex;
+position:relative;
+left:290px;
+top:60px;
+}
+#bloc_nousrencotrer h2 {
+font-family: Syne;
+font-size: 38px;
+font-weight: 800;
+line-height: 45.6px;
+text-align: center;
+
+}
+#bloc_nousrencotrer p {
+font-family: Syne;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+width:76%;
+padding-left:310px;
+} 
+#alignement_nousrencontrer {
+padding-top:60px;
+display:flex;
+justify-content:center;
+}
+#bloc_equipe{
+display:flex;
+flex-direction:row;
+}
+#bloc_equipe h3{
+display:flex;
+justify-content:center;
+font-family: Syne;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+}
+#bloc_equipe p {
+ display:flex;
+justify-content:center;
+font-family: Syne;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+
+}
+#partie_equipe h2{
+display:flex;
+justify-content:center;
+align-items:center;
+font-family: Syne;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+}
+#img_feuille {
+width: 191.21px;
+height: 219.08px;
+}
+#bloc_form form  {
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+#bloc_form form input{
+width: 383px;
+height: 71px;
+border-radius:10px;
+border:none; 
+}
+
+
+#bloc_form form textarea {
+ border:none; 
+ position:relative;
+width: 383px;
+height: 237px;
+z-index:2;
+border-radius:10px;
+}
+#bloc_form .has-spinner {
+  width: 198px;
+  height: 55px;
+  border:none;
+  border-radius:5px;
+  }
+#bloc_form .has-spinner:hover {
+  background-color:#C02E44 ;
+}
+#bloc_form {
+background-color: rgba(236, 226, 218, 1);
+top:-160px;
+ position: relative;
+}
+
+#bloc_form #feuille{
+position:absolute;
+  top:420px;
+left:483px;
+z-index:1;
+}
+h1.entry-title{
+display: none !important; }
+.elementor-50 .elementor-element.elementor-element-641be58 {
+  background: #3D9448;
+  ; } 
+ .h2_commander{
+    font-family: Syne;
+font-size: 38px;
+font-weight: 800;
+line-height: 45.6px;
+text-align: center;
+  }
+.h3_commander{
+font-family: Syne;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+} 
+.e-con-inner {
+display:flex !important;
+justify-content:space-between !important ;
+}
+#form_commande h3 {
+font-family: Syne;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color:white;
+}
+#form_commande input {
+width: 383px;
+height: 71px;
+border:none;
+border-radius:10px;
+}
+#form_commande br {
+gap:10px;
+
+} 
+.section_compteur{
+display:flex;
+gap:20px;
+padding-bottom:40px;
+}
+.compteur {
+width: 39px;
+height: 56px;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+margin:auto;
+}
+.formulaire_commander h2{
+font-family: Syne;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color:white; 
+margin-bottom:30px;
+
+}
+.bloc_form {
+display:flex;
+justify-content:space-between;
+padding-top:50px;
+padding-bottom:50px;
+}
+.bloc_form label {
+font-family: Syne;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color:white;
+
+}
+.bloc_form input {
+border:none;
+width: 383px;
+height: 71px;
+border-radius: 7px;
+}
+#btn_commande {
+width: 198px;
+height: 55px;
+background-color:#E0B9B4;
+border-radius: 5px;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:auto;
+border:none;
+}
+#btn_commande:hover {
+  background-color: #C02E44  ;
+}
+.barre_horizontale {
+width: 100%;
+height: 1px;
+background-color:white;
+border: none;
+}
+.barre_verticale {
+    width: 1px;
+  background-color: white;
+}
+/* Pour les tablettes (Ã©cran entre 768px et 1024px de largeur) */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  
+
+ 
+}
+
+/* Pour les mobiles (Ã©cran de moins de 768px de largeur) */
+@media screen and (max-width: 767px) {
+  header {
+    display:flex;
+    gap:10px;
+     padding:0px;
+  }
+  header img{
+    width:150px;
+   }
+  #menu ul , #menu a{
+    font-size:13px;
+  }
+  .section_compteur{
+display:flex;
+    justify-content:center;
+gap:10px;
+padding-bottom:0px;
+flex-wrap: wrap; }
+  .alignement{
+     flex: 0 0 35%; 
+    width:20%;
+    padding:0px;
+  }
+  .formulaire_commander h2 {
+    display:flex;
+    justify-content:center;
+  }
+.bloc_form input {
+border:none;
+width: 300px;
+height: 71px;
+border-radius: 7px;
+
+}
+#btn_commande {
+width: 198px;
+height: 55px;
+background-color:#E0B9B4;
+border-radius: 5px;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:auto;
+border:none;
+}
+
+}
