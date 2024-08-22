@@ -257,12 +257,20 @@ background-color: rgba(236, 226, 218, 1);
 top:-160px;
  position: relative;
 }
-
-#bloc_form #feuille{
-position:absolute;
-  top:420px;
-left:483px;
-z-index:1;
+.wpcf7-validates-as-required
+{
+  margin-top:10px;
+} 
+#formulaire {
+  position:relative;
+  z-index:2;
+}
+ #feuille{
+position: absolute; 
+  top: 58%; 
+  right: 13%; 
+  z-index: 1;
+  width: 100%;
 }
 h1.entry-title{
 display: none !important; }
@@ -416,6 +424,7 @@ height: 71px;
 border-radius: 7px;
 
 }
+
 #btn_commande {
 width: 198px;
 height: 55px;
